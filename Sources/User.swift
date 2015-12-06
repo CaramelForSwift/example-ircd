@@ -6,6 +6,7 @@
 //  Copyright © 2015 Lunar Guard. All rights reserved.
 //
 
+import Glibc
 import Caramel
 
 class UserGenerator {
