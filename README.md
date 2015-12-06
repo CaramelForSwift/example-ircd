@@ -2,6 +2,14 @@ This project is a sample app showing how to build an IRC server in [Caramel for 
 
 This project is in active development and should not be used as a guide to best practices for writing in Caramel.
 
+# Install
+
+First you need to build libuv as per the directions in the [CUv](https://github.com/CaramelForSwift/CUv) repository. Then this should be runnable via `swift build`.
+
+Currently there is an issue with building where the code reports the following error:
+
+`undefined reference to `_swift_FORCE_LOAD_$_swiftGlibc'`
+
 # License (MIT) 
 
 Copyright (c) 2015 Steve Streza
