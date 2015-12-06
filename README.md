@@ -8,7 +8,7 @@ First you need to build libuv as per the directions in the [CUv](https://github.
 
 Currently there is an issue with building where the code reports the following error:
 
-`undefined reference to `_swift_FORCE_LOAD_$_swiftGlibc'`
+`undefined reference to '_swift_FORCE_LOAD_$_swiftGlibc'`
 
 # License (MIT) 
 
